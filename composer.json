@@ -1,0 +1,21 @@
+{
+    "name": "zvn/tools",
+    "description": "零时差网络工具包",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zvn\\Tools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zvn",
+            "email": "admin@zvn.cc"
+        }
+    ],
+    "minimum-stability": "dev"
+}
